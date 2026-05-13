@@ -2,7 +2,7 @@ export default function decorate(block){
 
   const rows=[...block.children];
 
-  [...block.children].forEach((row,r) =>  
+  [...block.children].forEach((row,r) =>  {
 
     [...row.children].forEach((col) => {
       console.log(col);
