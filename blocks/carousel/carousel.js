@@ -1,4 +1,6 @@
 export default function decorate(block){
-  console.log("ok");
+
+  const rows=[...block.children];
+ console.log(rows.length);
 }
 
