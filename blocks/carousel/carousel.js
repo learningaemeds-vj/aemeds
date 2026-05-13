@@ -1,2 +1,4 @@
+export default function decorate(block){
+  console.log("ok");
+}
 
-console.log(js executing")
